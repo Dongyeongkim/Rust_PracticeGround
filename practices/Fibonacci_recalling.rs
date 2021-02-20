@@ -3,12 +3,12 @@ fn main(){
     let startpoint2:i64 = 1;
     let count_num:i64 = 10;
     print!("{} ", startpoint1);
-    Fibonacci(startpoint1, startpoint2, count_num);
+    fibonacci(startpoint1, startpoint2, count_num);
 }
 
 
 
-fn Fibonacci(start1:i64, start2:i64, count:i64) {
+fn fibonacci(start1:i64, start2:i64, count:i64) {
     print!("{} ",start2);
     let temp = start2;
     let start2 = start1+start2;
