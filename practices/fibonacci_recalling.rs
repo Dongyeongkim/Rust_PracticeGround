@@ -19,6 +19,6 @@ fn fibonacci(start1:i64, start2:i64, count:i64) {
         print!("{} ", start2);
     }
     else{
-        Fibonacci(start1, start2, count);
+        fibonacci(start1, start2, count);
     }
 }
